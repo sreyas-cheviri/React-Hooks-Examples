@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ReadMore from "../components/read-more-button";
 
 interface Effect {
   userId: number;
@@ -37,7 +38,7 @@ function MyUseEffectHook() {
     return () => {
       controller.abort();
     };
-  }, [ tab]);
+  }, [tab]);
 
   return (
     <div  className="container" >
@@ -72,6 +73,7 @@ function MyUseEffectHook() {
       <div style={{ color: loading ? "yellow" : "white", marginTop: " 10px" }}>
         {loading ? "loading..." : tabData?.title}
       </div>
+      <ReadMore link="https://petal-estimate-4e9.notion.site/5-useEffect-1177dfd10735805081a4d7ef71dddce9" children="notes"/>
       </div>
     </div>
   );

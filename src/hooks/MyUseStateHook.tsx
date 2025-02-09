@@ -8,7 +8,7 @@ function MyUseStateHook() {
     <div className="container">
       <div style={{display:"flex" , alignItems: "center" }}>
       <h4>useState</h4>
-        <h2 className="USH2">{count}</h2>
+        <h4 className="USH2">{count}</h4>
         <button onClick={() => setCount(count + 1)}>increase</button>
         <button onClick={() => setCount(count - 1)}>decrease</button>
         <ReadMore link="https://react.dev/reference/react/useState" children="Read more"></ReadMore>
