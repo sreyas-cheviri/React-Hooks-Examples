@@ -1,22 +1,26 @@
+import "./App.css";
 import MyUseEffectHook from "./hooks/MyUseEffectHook";
 import MyUseStateHook from "./hooks/MyUseStateHook";
-import "./App.css";
 import MyUseMemoHook from "./hooks/MyUseMemoHook";
 import MyUseContextHook from "./hooks/MyContextHook/MyUseContextHook";
 
 function App() {
   return (
     <>
-      <div style={{ display: "flex", gap: "10px", alignItems: "center", justifyContent:"space-between" , margin : "30px"}}>
-        <a target="_blank" href="https://react.dev/"><img src="../public/logo_dark.svg" alt="" /></a>
-        <h3>React - Hooks - Examples</h3>
-        <a target="_blank" href="https://github.com/sreyas-cheviri/React-Hooks-Examples"><img src="../public/github-mark-white.png" alt="" /></a>
+      <div className="header">
+        <a target="_blank" href="https://react.dev/">
+          <img src="../public/logo_dark.svg" alt="React Logo" />
+        </a>
+        <h3>React - Hooks - Examples - With - Tuto</h3>
+        <a target="_blank" href="https://github.com/sreyas-cheviri/React-Hooks-Examples">
+          <img src="../public/github-mark-white.png" alt="GitHub Logo" />
+        </a>
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+      <div className="hooks-container">
         <MyUseStateHook />
         <MyUseEffectHook />
         <MyUseMemoHook />
-        <MyUseContextHook/>
+        <MyUseContextHook />
       </div>
     </>
   );

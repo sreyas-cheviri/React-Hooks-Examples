@@ -14,20 +14,21 @@ export default function Login() {
     setUser({ name, password });
   };
   return (
-    <div style={{display:"flex",alignItems : "center"}}>
+    <div style={{display:"flex",alignItems : "center" , gap:"5px"}}>
       <input
         type="text"
         value={name}
         placeholder="name"
         onChange={(e) => setUsername(e.target.value)}
+        maxLength={8}
       />
       <input
         type="password"
         value={password}
         placeholder="password"
-        onChange={(e) => setPassword(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)} maxLength={8}
       />
-      <button onClick={handleSubmit}>submit</button>
+      <button onClick={handleSubmit}>Login</button>
     </div>
   );
 }

@@ -11,7 +11,7 @@ function MyUseStateHook() {
         <h4 className="USH2">{count}</h4>
         <button onClick={() => setCount(count + 1)}>increase</button>
         <button onClick={() => setCount(count - 1)}>decrease</button>
-        <ReadMore link="https://react.dev/reference/react/useState" children="Read more"></ReadMore>
+        <ReadMore link="https://react.dev/reference/react/useState" children="read more"></ReadMore>
       </div>
     </div>
   );

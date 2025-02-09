@@ -18,7 +18,20 @@ a {
     text-decoration: none;
     color: #d8d8d8;
 }
-
+.header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  .hooks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
 button {
     padding: 10px;
     border-radius: 100px;

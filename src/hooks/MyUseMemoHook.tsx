@@ -15,7 +15,7 @@ export default function MemoHook() {
     <input type="number"  value={number} onChange={e=> setNumber(parseInt(e.target.value))} />
     <button onClick={()=> setTheme(prevthem => ! prevthem) }>toggle theme </button>
     <div >{doubleNumber}</div>
-    <ReadMore link={"https://www.youtube.com/watch?v=THL1OPn72vo"}children={`video ↗`}></ReadMore>
+    <ReadMore link={"https://www.youtube.com/watch?v=THL1OPn72vo"}children={`video`}></ReadMore>
   </div>
   )
 }

@@ -70,7 +70,7 @@ function MyUseEffectHook() {
         todo #3
       </button>
 
-      <div style={{ color: loading ? "yellow" : "white", marginTop: " 10px" }}>
+      <div style={{ color: loading ? " #58c4dc" : "white", marginTop: " 10px" }}>
         {loading ? "loading..." : tabData?.title}
       </div>
       <ReadMore link="https://petal-estimate-4e9.notion.site/5-useEffect-1177dfd10735805081a4d7ef71dddce9" children="notes"/>
