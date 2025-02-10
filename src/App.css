@@ -79,12 +79,14 @@ h4 {
 .read-more-btn {
     background-color: #191b21;
     border: 1px solid #6d7078;
+    margin-left: auto;
 
     /* display: flex; */
 }
 
 .read-more-btn a {
     color: rgba(255, 255, 255, 0.777);
+    
 }
 
 .read-more-btn:hover {

@@ -10,12 +10,12 @@ export default function MemoHook() {
 
 
   return (
-  <div style={{...themeStyle, display:"flex" , alignItems:"center" , gap : "10px" } } className="container">
+  <div style={{...themeStyle, display:"flex" , alignItems:"center" } } className="container">
     <h4>useMemo</h4> 
     <input type="number"  value={number} onChange={e=> setNumber(parseInt(e.target.value))} />
     <button onClick={()=> setTheme(prevthem => ! prevthem) }>toggle theme </button>
-    <div >{doubleNumber}</div>
-    <ReadMore link={"https://www.youtube.com/watch?v=THL1OPn72vo"}children={`video`}></ReadMore>
+    <button >{doubleNumber}</button>
+    <ReadMore link={"https://www.youtube.com/watch?v=THL1OPn72vo"} children={`video`} yes={true}></ReadMore>
   </div>
   )
 }
