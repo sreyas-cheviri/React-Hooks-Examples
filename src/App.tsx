@@ -9,11 +9,11 @@ function App() {
     <>
       <div className="header">
         <a target="_blank" href="https://react.dev/">
-          <img src="../public/logo_dark.svg" alt="React Logo" />
+          <img src="/logo_dark.svg" alt="React Logo" />
         </a>
         <h3>React - Hooks - Examples - With - Tuto</h3>
         <a target="_blank" href="https://github.com/sreyas-cheviri/React-Hooks-Examples">
-          <img src="../public/github-mark-white.png" alt="GitHub Logo" />
+          <img src="/github-mark-white.png" alt="GitHub Logo" />
         </a>
       </div>
       <div className="hooks-container">
